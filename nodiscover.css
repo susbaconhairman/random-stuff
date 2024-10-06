@@ -1,0 +1,16 @@
+/**
+* @name Remove Discover Button
+* @author u/Codingale
+* @description Hides the Discover button, as well as the Nitro and Shop tabs on the friend screen.
+* @source https://www.reddit.com/r/discordapp/comments/1ev6f4d/comment/lj3bsgr
+* @updateUrl https://raw.githubusercontent.com/susbaconhairman/random-stuff/refs/heads/main/nodiscover.css
+* @version 1.0
+*/
+
+/* hides the shop / store and the nitro tab */
+li[role=listitem]:has(a[href="/store"]),
+li[role=listitem]:has(a[href="/shop"]),
+/* hides dumb discover button */
+ul[data-list-id="guildsnav"] > div[class^="footer"] {
+    display: none;
+}
