@@ -1,0 +1,13 @@
+/**
+* @name Remove Activity Card
+* @author susbaconhairman
+* @description Removes that stupid stupid stinky activity card in a server's member list.
+* @source https://github.com/susbaconhairman/random-stuff
+* @updateUrl https://raw.githubusercontent.com/susbaconhairman/random-stuff/refs/heads/main/noactivitycard.css
+* @version 1.0
+*/
+
+/* Hides dumb activity card */
+ul[data-list-id="container_cbd271"] > div[class^="header_bc6acb"] {
+    display: none;
+}
