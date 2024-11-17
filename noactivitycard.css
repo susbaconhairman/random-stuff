@@ -8,6 +8,6 @@
 */
 
 /* Hides dumb activity card */
-ul[data-list-id="members-972494175700406302___0"] > div[class^="membersGroup_cbd271 container_a5ad5c text_a5ad5c"] {
+ul[data-list-id="members-972494175700406302___0"] > div[class^="members_cbd271 thin_eed6a8 scrollerBase_eed6a8 fade_eed6a8 customTheme_eed6a8"] {
     display: none;
 }
